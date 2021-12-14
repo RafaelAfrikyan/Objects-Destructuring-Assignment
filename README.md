@@ -30,3 +30,7 @@ Given an object containing counts of both upvotes and downvotes, return what vot
 displayed. This is calculated by subtracting the number of downvotes from upvotes.
 
 [upvotes.js](upwotes.js)
+
+## 4. 50 30 20 
+
+[fiftyThirtyTwenty.js](fiftyThirtyTwenty.js)
