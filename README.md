@@ -1,7 +1,9 @@
 - Get name, country and jod using destructuring.
 
->    `` let person = { name: "Sarah", country: 
->    "Armenia", job: "Developer" };
->    console.log(name); // "Sarah"
->    console.log(country); // "Nigeria"
->    console.log(job); // "Developer" ``
+>    `` let person = { name: "Sarah", country: "Armenia", job: "Developer" };
+>
+>>    console.log(name); // "Sarah"
+>
+>>    console.log(country); // "Nigeria"
+>
+>>    console.log(job); // "Developer" ``
