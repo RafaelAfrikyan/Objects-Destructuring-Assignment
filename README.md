@@ -34,3 +34,8 @@ displayed. This is calculated by subtracting the number of downvotes from upvote
 ## 4. 50 30 20 
 
 [fiftyThirtyTwenty.js](fiftyThirtyTwenty.js)
+
+## 5. Create a one-liner function
+
+
+[oneLiner.js](oneLiner.js)
