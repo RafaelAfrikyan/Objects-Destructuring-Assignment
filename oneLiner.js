@@ -8,12 +8,10 @@ let city = {
     
 
    function cityFacts (city) {
-    let x = city.name;
-    let y = city.population;
-    let z = city.continent;
+    let {name: x, population: y, continent: z} = city;
 
-    let result = `${x} has a population of ${y} and is statued in ${z}`;
-    return result;
+    return `${x} has a population of ${y} and is statued in ${z}`;
+    
    }
    
    console.log(cityFacts(city)) 
