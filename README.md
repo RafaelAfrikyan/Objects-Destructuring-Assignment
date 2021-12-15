@@ -1,7 +1,7 @@
 ## 1. Get name, country and jod using destructuring.
 ___
 
-```
+```js
 let person = { name: "Sarah", country: "Armenia", job: "Developer" };
 
 console.log(name); // "Sarah"
@@ -15,7 +15,7 @@ console.log(job); // "Developer"
 ## 2. Concatenate the two arrays.
 ___
 
-```
+```js
 const arr1 = [1, 2, 3, 4];
 
 const arr2 = [5, 6, 7, 8, 9];
@@ -31,7 +31,7 @@ ___
 Given an object containing counts of both upvotes and downvotes, return what vote count should be
 displayed. This is calculated by subtracting the number of downvotes from upvotes.
 
-```
+```js
 getVoteCount({ upvotes: 13, downvotes: 0 }); // ➞ 13
 getVoteCount({ upvotes: 2, downvotes: 33 }); // ➞ -31
 getVoteCount({ upvotes: 132, downvotes: 132 }); // ➞ 0
@@ -44,7 +44,7 @@ ___
 
 The 50-30-20 strategy is a simple way to budget, which involves spending 50% of after-tax income on needs, 30% after tax income on wants, and 20% after-tax income on savings or paying off debt.
 
-```
+```js
 fiftyThirtyTwenty(10000); // ➞ { "Needs": 5000, "Wants": 3000, "Savings":
 2000 }
 fiftyThirtyTwenty(50000); // ➞ { "Needs": 25000, "Wants": 15000,
@@ -60,7 +60,7 @@ fiftyThirtyTwenty(13450); // ➞ { "Needs": 6725, "Wants": 4035, "Savings":
 Create a function that takes an object as an argument and returns a string with facts about the city. The city
 facts will need to be extracted from the object's three properties:
 
-```
+```js
 cityFacts({
 name: "Paris",
 population: "2,140,526",
@@ -78,7 +78,8 @@ continent: "Asia",
 
 ## 6. Create a function that takes infinite count of elements, operator and prints their sum. If there's no operator, then default should be +
 ___
-```
+
+```js
 printSum("*", 1, 2, 3); // 9
 printSum(1, 2, 3, 4, 5); // 15
 printSum("-", 1, 2, 3, 6, 7); // -17
@@ -89,10 +90,19 @@ printSum("**", 2, 3, 2); // 64
 
 ## 7. Swapping Values using the Destructuring Assignment
 
-```
+```js
 let a = 3;
 let b = 6;
 console.log(a); //6
 console.log(b); //3
 ```
 [swapValues.js](swapValues.js)
+
+## 8. Write a function that creates an object with each (key, value) pair being the (lower case, upper case) versions of a letter, respectively.
+
+```js
+mapping(["p", "s"]) ➞ { "p": "P", "s": "S" }
+mapping(["a", "b", "c"]) ➞ { "a": "A", "b": "B", "c": "C" }
+mapping(["a", "v", "y", "z"]) ➞ { "a": "A", "v": "V", "y": "Y", "z": "Z" }
+```
+[upperCase.js](upperCase.js)
