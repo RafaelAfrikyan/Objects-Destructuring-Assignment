@@ -29,9 +29,26 @@ const arr3; // [1, 2, 3, 4, 5, 6, 7, 8, 9]
 Given an object containing counts of both upvotes and downvotes, return what vote count should be
 displayed. This is calculated by subtracting the number of downvotes from upvotes.
 
+```
+getVoteCount({ upvotes: 13, downvotes: 0 }); // ➞ 13
+getVoteCount({ upvotes: 2, downvotes: 33 }); // ➞ -31
+getVoteCount({ upvotes: 132, downvotes: 132 }); // ➞ 0
+```
+
 [upvotes.js](upwotes.js)
 
-## 4. 50 30 20 
+## 4. 50 30 20
+
+The 50-30-20 strategy is a simple way to budget, which involves spending 50% of after-tax income on needs, 30% after tax income on wants, and 20% after-tax income on savings or paying off debt.
+
+```
+fiftyThirtyTwenty(10000); // ➞ { "Needs": 5000, "Wants": 3000, "Savings":
+2000 }
+fiftyThirtyTwenty(50000); // ➞ { "Needs": 25000, "Wants": 15000,
+"Savings": 10000 }
+fiftyThirtyTwenty(13450); // ➞ { "Needs": 6725, "Wants": 4035, "Savings":
+2690 }
+```
 
 [fiftyThirtyTwenty.js](fiftyThirtyTwenty.js)
 
@@ -50,3 +67,13 @@ printSum("**", 2, 3, 2); // 64
 ```
 
 [sumOfElements.js](sumOfElements.js)
+
+## 7. Swapping Values using the Destructuring Assignment
+
+```
+let a = 3;
+let b = 6;
+console.log(a); //6
+console.log(b); //3
+```
+[swapValues.js](swapValues.js)
