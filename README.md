@@ -56,7 +56,22 @@ fiftyThirtyTwenty(13450); // ➞ { "Needs": 6725, "Wants": 4035, "Savings":
 [fiftyThirtyTwenty.js](fiftyThirtyTwenty.js)
 
 ## 5. Create a one-liner function
-___
+---
+Create a function that takes an object as an argument and returns a string with facts about the city. The city
+facts will need to be extracted from the object's three properties:
+
+```
+cityFacts({
+name: "Paris",
+population: "2,140,526",
+continent: "Europe",
+}); // ➞ "Paris has a population of 2,140,526 and is situated in Europe"
+cityFacts({
+name: "Tokyo",
+population: "13,929,286",
+continent: "Asia",
+}); // ➞ "Tokyo has a population of 13,929,286 and is situated in Asia"
+```
 
 
 [oneLiner.js](oneLiner.js)
