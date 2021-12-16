@@ -119,3 +119,27 @@ getFrequencies([true, false, true, false, false]) ➞ { true: 2, false: 3 }
 getFrequencies([]) ➞ {}
 ```
 [optional_1.js](optional_1.js)
+
+## 10. removeNaNitems
+
+You receive an object with nested objects with strings as values. Convert their values to
+number and return an object without the entries that evaluate to NaN.
+
+```js
+findAndRemove({
+bedroom: {
+slippers: "10000",
+piano: "550",
+call: "vet",
+travel: "world",
+},
+});
+// => OUTPUT
+// {
+// bedroom: {
+// slippers: 10000,
+// piano: 5500,
+// },
+// }
+```
+[optional_2.js](optional_2.js)
