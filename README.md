@@ -143,3 +143,11 @@ travel: "world",
 // }
 ```
 [optional_2.js](optional_2.js)
+
+## 11. Resolve Mher's task whith reccursion
+
+[Optional01.js](Optional01.js)
+
+## 12. Resolve Mher's second task
+
+[Optional02.js](Optional02.js)
