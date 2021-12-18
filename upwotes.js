@@ -1,15 +1,8 @@
 
 
-let obj = { upvotes: 13, downvotes: 13 };
 
 function getVoteCount(obj) {
-    if(obj.upvotes > obj.downvotes) {
-        return obj.upvotes
-    }
-    else if (obj.upvotes < obj.downvotes) {
-        return obj.downvotes
-    }
-    else 
-    return '0'
+ let {upvotes, downvotes} = obj;
+ return upvotes - downvotes;
 }
-console.log(getVoteCount(obj))
+console.log(getVoteCount({ upvotes: 2, downvotes: 33 }))

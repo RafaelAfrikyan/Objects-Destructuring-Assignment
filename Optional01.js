@@ -1,8 +1,8 @@
 let newArr = [];
-let arr = [1,2, 3, 4]
-k = 2;
+let arr = [1,2, 3, 4]; 
+let k = 2
 
-function recursia(arr) {
+function recursia(arr, k) {
 
     if (k-- <= 0) {
         return arr;
@@ -17,12 +17,12 @@ function recursia(arr) {
     arr.splice(maxIndexOfArray, 1, arr[0]);
     arr.shift();
 
-    let reorderedArray = recursia(arr);
+    let reorderedArray = recursia(arr, k);
 
     return newArray.concat(reorderedArray);
 }
 
-console.log(recursia(arr));
+console.log(recursia(arr, k));
 
 
 // function changePlace(array, cb){
